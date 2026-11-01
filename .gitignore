@@ -1,14 +1,20 @@
+# Python
 .venv/
 __pycache__/
 .pytest_cache/
+*.pyc
 
+# Google login / OAuth client (never commit)
 credentials.json
 token.json
+client_secret_*.json
 
+# Personal mail and run state (never commit)
+extracted/
+*.eml
+*.zip
 logs/*
 !logs/.gitkeep
 state/*
 !state/.gitkeep
-
-*.pyc
 *.log
