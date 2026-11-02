@@ -50,7 +50,7 @@ zip은 압축을 풀지 말고 **다운로드 폴더에 받은 그대로** 두�
 Claude Code·Codex 등에 아래 문장을 붙여넣으세요. 이메일 주소만 본인 것으로 바꾸면 됩니다.
 
 ```text
-https://github.com/mastercpakim-ui/gmail-eml-import
+https://github.com/nuttycpa/gmail-eml-import
 이 repo의 AGENTS.md 순서대로 내 네이버 메일 백업을 Gmail로 옮겨줘.
 백업 zip 파일은 다운로드 폴더에 있고, 넣을 Gmail 계정은 내주소@gmail.com 이야.
 ```
@@ -129,7 +129,7 @@ https://github.com/mastercpakim-ui/gmail-eml-import
 **요구 사항**: Python 3.10 이상. 실제 Gmail 시험은 Windows, 오프라인 테스트는 Windows·WSL(Linux)에서 했습니다.
 
 ```bash
-git clone https://github.com/mastercpakim-ui/gmail-eml-import
+git clone https://github.com/nuttycpa/gmail-eml-import
 cd gmail-eml-import
 python -m venv .venv
 .venv/Scripts/python -m pip install -r requirements.txt     # Windows (macOS/Linux: .venv/bin/python)
